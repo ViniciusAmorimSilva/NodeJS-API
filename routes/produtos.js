@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Retorna todos os produtos
-router.get('/produtos/all', (req, res, next) => {
+router.get('/produtos', (req, res, next) => {
     res.status(200).send({
         mensagem: 'Retorna todos os produtos'
     });
